@@ -23,8 +23,12 @@
 /* using grid to style our elemnts */
 .container{
     display: grid;
-    /* grid-template-columns: 20% 20% 20%; */
-    grid-template-columns: 360px 620px 280px;
+    grid-template-columns: 20% 50% 30%;
     grid-auto-rows:2.2em;
     grid-gap: 5px;
+    margin: 5px;
 }
+#seven{
+    grid-column: 1 / -1;
+}
+
