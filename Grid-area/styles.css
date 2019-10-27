@@ -1,0 +1,44 @@
+* {
+  font-family: Helvetica;
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template: repeat(4, 80px) / repeat(4, 1fr);
+  grid-template-areas: 
+    "h h h h"
+    "a a b c"
+    "f f f f" 
+    ;
+    
+}
+
+  
+
+header {
+  background-color: #D0021B;
+  grid-area: h;
+}
+
+section#a {
+  background-color: #9013FE;
+  grid-area: a;
+}
+
+section#b {
+  background-color: #F8E71C;
+  grid-area: b;
+}
+
+section#c {
+  background-color: #F5A623;
+  grid-area: c;
+}
+
+footer {
+  background-color: #50E3C2;
+  grid-area: f;
+}
